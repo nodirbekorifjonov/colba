@@ -40,7 +40,7 @@ const HomeStatistics = () => {
         },
     ];
     return (
-        <div id="statistics" className="pt-[20px] pb-[170px] bg-[url(/public/assets/statistics-bg-twinkle.svg)] bg-no-repeat bg-[left_bottom_-70px]">
+        <div id="statistics" className="pt-[20px] pb-[170px] bg-[url(/assets/statistics-bg-twinkle.svg)] bg-no-repeat bg-[left_bottom_-70px]">
             <div className="site-container">
                 <h2 className="about__title text-[64px] uppercase font-semibold mb-6 max-[840px]:text-[48px] max-[840px]:mb-4 max-[700px]:text-[32px] max-[700px]:mb-2">
                     COLBA <span className="gradient-text">RAQAMLARDA</span>

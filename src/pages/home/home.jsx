@@ -8,13 +8,13 @@ const Home = () => {
             <HomeAbout />
             <HomeAdvantages />
             <HomeStatistics />
-            <AskQuestion img='/public/assets/ask-img-1.png' srcSet='/public/assets/ask-img-1@2x.png' />
+            <AskQuestion img='/assets/ask-img-1.png' srcSet='/assets/ask-img-1@2x.png' />
             <EduSystem />
-            <AskQuestion img='/public/assets/ask-img-2.png' srcSet='/public/assets/ask-img-2@2x.png' />
+            <AskQuestion img='/assets/ask-img-2.png' srcSet='/assets/ask-img-2@2x.png' />
             <HomeTeam />
             <Atmosphere />
             <Faqs />
-            <AskQuestion img='/public/assets/ask-img-2.png' srcSet='/public/assets/ask-img-2@2x.png' />
+            <AskQuestion img='/assets/ask-img-2.png' srcSet='/assets/ask-img-2@2x.png' />
 
         </>
     )

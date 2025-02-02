@@ -14,7 +14,7 @@ const AskQuestion = ({ img, srcSet }) => {
                         <input type="text" placeholder="Ism familya" className="bg-white placeholder:text-black py-4 px-7 text-black outline-none border-none rounded-[50px] w-full max-[975px]:col-span-2 max-[640px]:col-span-4" />
                         <label className="bg-white flex items-center gap-6  py-4 px-7 text-black rounded-[50px] w-full max-[975px]:col-span-2 max-[975px]:gap-8 max-[640px]:col-span-4">
                             <span className="flex items-center gap-5">
-                                <img src="/public/assets/uzb-flag.png" alt="" srcSet="/public/assets/uzb-flag.png 1x, /public/assets/uzb-flag@2x.png 2x" />
+                                <img src="/assets/uzb-flag.png" alt="" srcSet="/assets/uzb-flag.png 1x, /assets/uzb-flag@2x.png 2x" />
                                 <span>+998</span>
                             </span>
                             <input type="text" placeholder="99 123 45 67" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className=" outline-none border-none w-full" />

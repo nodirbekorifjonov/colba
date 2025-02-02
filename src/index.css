@@ -46,9 +46,9 @@
 
   .hero-bg {
     background: rgb(0, 140, 218);
-    background: url(/public/assets/hero-bg-speach.svg),
-      url(/public/assets/hero-bg-arrow.svg),
-      url(/public/assets/hero-bg-twinkle.svg),
+    background: url(/assets/hero-bg-speach.svg),
+      url(/assets/hero-bg-arrow.svg),
+      url(/assets/hero-bg-twinkle.svg),
       linear-gradient(
         165deg,
         rgba(0, 140, 218, 1) 0%,
@@ -61,9 +61,9 @@
 
   .ask-bg {
     background: rgb(0, 140, 218);
-    background: url(/public/assets/ask-bg.svg),
-      url(/public/assets/ask-bg-speach.svg),
-      url(/public/assets/ask-bg-arrow.svg),
+    background: url(/assets/ask-bg.svg),
+      url(/assets/ask-bg-speach.svg),
+      url(/assets/ask-bg-arrow.svg),
       linear-gradient(
         165deg,
         rgba(0, 140, 218, 1) 0%,
@@ -96,7 +96,7 @@
   .faqs-bg {
     /*  */
     background: rgb(0, 140, 218);
-    background: url(/public/assets/questions-bg-twinkle.svg),
+    background: url(/assets/questions-bg-twinkle.svg),
       linear-gradient(
         165deg,
         rgba(0, 140, 218, 1) 0%,
@@ -138,8 +138,8 @@
 
   @media screen and (max-width: 975px) {
     .ask-bg {
-      background: url(/public/assets/ask-bg.svg),
-        url(/public/assets/ask-bg-speach.svg),
+      background: url(/assets/ask-bg.svg),
+        url(/assets/ask-bg-speach.svg),
         linear-gradient(
           165deg,
           rgba(0, 140, 218, 1) 0%,
@@ -184,8 +184,8 @@
 
   @media screen and (max-width: 654px) {
     .hero-bg {
-      background: url(/public/assets/hero-bg-speach.svg),
-        url(/public/assets/hero-bg-twinkle.svg),
+      background: url(/assets/hero-bg-speach.svg),
+        url(/assets/hero-bg-twinkle.svg),
         linear-gradient(
           165deg,
           rgba(0, 140, 218, 1) 0%,

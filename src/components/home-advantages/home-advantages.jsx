@@ -59,7 +59,7 @@ const HomeAdvantages = () => {
     ];
 
     return (
-        <div id="advantages" className="pt-[52px] pb-[100px] bg-[url(/public/assets/advantages-bg-arrow.svg)] bg-no-repeat bg-[right_220px_bottom_-10px] max-[1450px]:bg-[right_180px_bottom_-20px] max-[1370px]:bg-[right_120px_bottom_-20px] max-[1200px]:bg-[right_70px_bottom_-20px] max-[1100px]:bg-[right_20px_bottom_-20px] max-[1000px]:bg-[right_bottom_-30px] max-[720px]:bg-none max-[720px]:pb-[50px]">
+        <div id="advantages" className="pt-[52px] pb-[100px] bg-[url(/assets/advantages-bg-arrow.svg)] bg-no-repeat bg-[right_220px_bottom_-10px] max-[1450px]:bg-[right_180px_bottom_-20px] max-[1370px]:bg-[right_120px_bottom_-20px] max-[1200px]:bg-[right_70px_bottom_-20px] max-[1100px]:bg-[right_20px_bottom_-20px] max-[1000px]:bg-[right_bottom_-30px] max-[720px]:bg-none max-[720px]:pb-[50px]">
             <div className="site-container flex flex-col">
                 <h2 className="about__title text-[64px] uppercase font-semibold mb-6 max-[840px]:text-[48px] max-[840px]:mb-4 max-[700px]:text-[32px] max-[700px]:mb-2">
                     NIma uchun <span className="gradient-text">bizning maktab</span>

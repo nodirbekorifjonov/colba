@@ -1,33 +1,33 @@
 const Atmosphere = () => {
     const atmosphere = [
         {
-            img: '/public/assets/atmos-1.png',
-            srcSet: "/public/assets/atmos-1@2x.png",
+            img: '/assets/atmos-1.png',
+            srcSet: "/assets/atmos-1@2x.png",
             grids: "col-span-4 row-span-3 max-[1075px]:col-span-6 max-[500px]:row-span-6 max-[500px]:col-span-12"
         },
         {
-            img: '/public/assets/atmos-2.png',
-            srcSet: "/public/assets/atmos-2@2x.png",
+            img: '/assets/atmos-2.png',
+            srcSet: "/assets/atmos-2@2x.png",
             grids: "col-span-4 row-span-4 max-[1075px]:col-span-6 max-[1075px]:row-span-4 max-[500px]:row-span-6 max-[500px]:col-span-12"
         },
         {
-            img: '/public/assets/atmos-3.png',
-            srcSet: "/public/assets/atmos-3@2x.png",
+            img: '/assets/atmos-3.png',
+            srcSet: "/assets/atmos-3@2x.png",
             grids: "col-span-4 row-span-5 max-[1075px]:col-span-6 max-[1075px]:row-span-5 max-[500px]:row-span-6 max-[500px]:col-span-12"
         },
         {
-            img: '/public/assets/atmos-4.png',
-            srcSet: "/public/assets/atmos-4@2x.png",
+            img: '/assets/atmos-4.png',
+            srcSet: "/assets/atmos-4@2x.png",
             grids: "col-span-4 row-span-5 max-[1075px]:col-span-6 max-[1075px]:row-span-5 max-[500px]:row-span-6 max-[500px]:col-span-12"
         },
         {
-            img: '/public/assets/atmos-5.png',
-            srcSet: "/public/assets/atmos-5@2x.png",
+            img: '/assets/atmos-5.png',
+            srcSet: "/assets/atmos-5@2x.png",
             grids: "col-span-4 row-span-4 max-[1075px]:col-span-6 max-[1075px]:row-span-4 max-[500px]:row-span-6 max-[500px]:col-span-12"
         },
         {
-            img: '/public/assets/atmos-6.png',
-            srcSet: "/public/assets/atmos-6@2x.png",
+            img: '/assets/atmos-6.png',
+            srcSet: "/assets/atmos-6@2x.png",
             grids: "col-span-4 row-span-3 max-[1075px]:col-span-6 max-[500px]:row-span-6 max-[500px]:col-span-12"
         },
     ]

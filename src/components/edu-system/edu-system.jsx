@@ -1,6 +1,6 @@
 const EduSystem = () => {
     return (
-        <div className="pt-[140px] pb-[180px] bg-[url(/public/assets/edusystem-bg.svg)] bg-no-repeat bg-right-bottom max-[840px]:pt-[40px] max-[840px]:pb-[100px]">
+        <div className="pt-[140px] pb-[180px] bg-[url(/assets/edusystem-bg.svg)] bg-no-repeat bg-right-bottom max-[840px]:pt-[40px] max-[840px]:pb-[100px]">
             <div className="site-container flex flex-col ">
                 <h2 className="about__title text-[64px] uppercase font-semibold text-center mb-6 max-[840px]:text-[48px] max-[840px]:mb-4 max-[700px]:text-[32px] max-[700px]:mb-2">
                     <span className="gradient-text">O’QUV</span> TIZIMI
