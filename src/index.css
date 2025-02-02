@@ -1,0 +1,216 @@
+@import "tailwindcss";
+@import "./fonts/font.css";
+
+@theme {
+  --font-clashdisplay: "ClashDisplay-Variable", "sans-serif";
+  --font-sora: "Sora", "sans-serif";
+  --font-soraSemibold: "SoraSemibold", "sans-serif";
+  --font-inter: "Inter", "sans-serif";
+}
+
+@layer {
+  .site-container {
+    max-width: 1364px;
+    padding-inline: 20px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  @media screen and (max-width: 715px) {
+    .site-container {
+      padding-inline: 10px;
+    }
+  }
+
+  .primary-gradient {
+    background: rgb(0, 140, 218);
+    background: linear-gradient(
+      165deg,
+      rgba(0, 140, 218, 1) 0%,
+      rgba(52, 212, 242, 1) 50%,
+      rgba(172, 226, 225, 1) 100%
+    );
+  }
+
+  .gradient-text {
+    background: #fff;
+    background: linear-gradient(
+      165deg,
+      rgba(0, 140, 218, 1) 0%,
+      rgba(52, 212, 242, 1) 50%,
+      rgba(172, 226, 225, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-bg {
+    background: rgb(0, 140, 218);
+    background: url(/public/assets/hero-bg-speach.svg),
+      url(/public/assets/hero-bg-arrow.svg),
+      url(/public/assets/hero-bg-twinkle.svg),
+      linear-gradient(
+        165deg,
+        rgba(0, 140, 218, 1) 0%,
+        rgba(52, 212, 242, 1) 50%,
+        rgba(172, 226, 225, 1) 100%
+      );
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom 0 right 250px, top right;
+  }
+
+  .ask-bg {
+    background: rgb(0, 140, 218);
+    background: url(/public/assets/ask-bg.svg),
+      url(/public/assets/ask-bg-speach.svg),
+      url(/public/assets/ask-bg-arrow.svg),
+      linear-gradient(
+        165deg,
+        rgba(0, 140, 218, 1) 0%,
+        rgba(52, 212, 242, 1) 50%,
+        rgba(172, 226, 225, 1) 100%
+      );
+    background-repeat: no-repeat;
+    background-size: cover, auto, auto;
+    background-position: center, right bottom, center bottom;
+  }
+
+  .gradient-btn {
+    background: linear-gradient(
+      165deg,
+      rgba(0, 140, 218, 1) 0%,
+      rgba(52, 212, 242, 1) 50%,
+      rgba(172, 226, 225, 1) 100%
+    );
+
+    font-weight: 600;
+    padding: 16px 190px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  .faqs-bg {
+    /*  */
+    background: rgb(0, 140, 218);
+    background: url(/public/assets/questions-bg-twinkle.svg),
+      linear-gradient(
+        165deg,
+        rgba(0, 140, 218, 1) 0%,
+        rgba(52, 212, 242, 1) 50%,
+        rgba(172, 226, 225, 1) 100%
+      );
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .gradient-btn:hover {
+    transform: translateY(-8%);
+  }
+
+  @media screen and (max-width: 840px) {
+    .gradient-btn {
+      font-size: 16px;
+      padding-inline: 150px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .gradient-btn {
+      padding-inline: 100px;
+    }
+  }
+
+  @media screen and (max-width: 335px) {
+    .gradient-btn {
+      padding-inline: 50px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .ask-bg {
+      background-position: center, right bottom, right 400px bottom;
+    }
+  }
+
+  @media screen and (max-width: 975px) {
+    .ask-bg {
+      background: url(/public/assets/ask-bg.svg),
+        url(/public/assets/ask-bg-speach.svg),
+        linear-gradient(
+          165deg,
+          rgba(0, 140, 218, 1) 0%,
+          rgba(52, 212, 242, 1) 50%,
+          rgba(172, 226, 225, 1) 100%
+        );
+      background-repeat: no-repeat;
+      background-size: cover, auto, auto;
+      background-position: center, right 10px top 10px;
+    }
+  }
+
+  @media screen and (max-width: 1256px) {
+    .hero-bg {
+      background-position: bottom left, bottom 0 right 200px, top right;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .hero-bg {
+      background-position: bottom left, bottom 0 right 150px, top right;
+    }
+  }
+
+  @media screen and (max-width: 1054px) {
+    .hero-bg {
+      background-position: bottom left, bottom 0 right 100px, top right;
+    }
+  }
+
+  @media screen and (max-width: 954px) {
+    .hero-bg {
+      background-position: bottom left, bottom 0 right 50px, top right;
+    }
+  }
+
+  @media screen and (max-width: 854px) {
+    .hero-bg {
+      background-position: bottom left, bottom right, top right;
+    }
+  }
+
+  @media screen and (max-width: 654px) {
+    .hero-bg {
+      background: url(/public/assets/hero-bg-speach.svg),
+        url(/public/assets/hero-bg-twinkle.svg),
+        linear-gradient(
+          165deg,
+          rgba(0, 140, 218, 1) 0%,
+          rgba(52, 212, 242, 1) 50%,
+          rgba(172, 226, 225, 1) 100%
+        );
+      background-repeat: no-repeat;
+      background-position: bottom left, top right;
+    }
+  }
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f8f9;
+  height: 100%;
+  font-family: "ClashDisplay-Variable";
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,12 @@
+export { default as Navbar } from "./navbar/navbar";
+export { default as Footer } from "./footer/footer";
+export { default as HomeHero } from "./home-hero/home-hero";
+export { default as HomeAbout } from "./home-about/home-about";
+export { default as HomeAdvantages } from "./home-advantages/home-advantages";
+export { default as CardBox } from "./card-box/card-box";
+export { default as HomeStatistics } from "./home-statistics/home-statistics";
+export { default as AskQuestion } from "./ask-question/ask-question";
+export { default as EduSystem } from "./edu-system/edu-system";
+export { default as HomeTeam } from "./home-team/home-team";
+export { default as Atmosphere } from "./atmosphere/atmosphere";
+export { default as Faqs } from "./faqs/faqs";

@@ -1,0 +1,1 @@
+export { default as MyAccordion } from './myaccordion/myaccordion'
